@@ -1,17 +1,17 @@
 [user]
-	email = jrusev@gmail.com
-	name = jrusev
+  email = jrusev@gmail.com
+  name = jrusev
 
 [core]
-	editor = atom --wait
+  editor = atom --wait
 
 [push]
-	default = simple
-	
+  default = simple
+
 [alias]
-	st = status
-	ci = commit
-	br = branch
-	co = checkout
-	df = diff
-	lg = log --color --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -10
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log --color --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -10
