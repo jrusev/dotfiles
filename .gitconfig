@@ -1,0 +1,13 @@
+[core]
+	editor = atom --wait
+	
+[push]
+	default = simple
+	
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+	lg = log --color --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -20
