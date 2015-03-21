@@ -10,4 +10,4 @@
   br = branch
   co = checkout
   df = diff
-	lg = log --color --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -20
+	lg = log --color --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' -10
