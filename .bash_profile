@@ -47,3 +47,5 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 # NVM
 export NVM_DIR="/Users/jr/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
