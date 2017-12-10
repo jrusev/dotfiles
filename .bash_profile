@@ -49,3 +49,6 @@ export NVM_DIR="/Users/jr/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+
+# https://stackoverflow.com/questions/791765/unable-to-forward-search-bash-history-similarly-as-with-ctrl-r/
+stty -ixon
